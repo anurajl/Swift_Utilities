@@ -11,7 +11,7 @@ import UIKit
 
 extension UIColor{
     
-    class func colorWithHex(hex:String) -> UIColor {
+    static func colorWithHex(hex:String) -> UIColor {
         
         var colorString = hex.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).uppercased()
         if colorString.hasPrefix("#"){
@@ -40,22 +40,3 @@ extension UIColor{
     
 }
 
-extension CGFloat {
-    static func random() -> CGFloat {
-        return CGFloat(arc4random()) / CGFloat(UInt32.max)
-    }
-}
-
-
-extension UIView{
-    
-     func addShadowToView() {
-
-        
-        layer.shadowOffset = CGSize(width: 2, height: 2)
-        layer.shadowOpacity = 0.25
-        layer.cornerRadius = 5
-        layer.shadowRadius = 3
-        clipsToBounds = false
-    }
-}

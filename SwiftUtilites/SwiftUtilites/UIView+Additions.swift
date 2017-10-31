@@ -7,3 +7,17 @@
 //
 
 import Foundation
+import UIKit
+
+extension UIView{
+    
+    func addShadowToView() {
+        
+        
+        layer.shadowOffset = CGSize(width: 2, height: 2)
+        layer.shadowOpacity = 0.25
+        layer.cornerRadius = 5
+        layer.shadowRadius = 3
+        clipsToBounds = false
+    }
+}
