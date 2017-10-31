@@ -17,6 +17,7 @@
 		6B50FB5A1FA885DE0017D333 /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B50FB591FA885DE0017D333 /* UIView+Additions.swift */; };
 		6B50FB5C1FA886170017D333 /* Strings+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B50FB5B1FA886170017D333 /* Strings+Additions.swift */; };
 		6B50FB5E1FA886300017D333 /* CGFloat+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B50FB5D1FA886300017D333 /* CGFloat+Additions.swift */; };
+		6B50FB601FA896AE0017D333 /* Date+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B50FB5F1FA896AE0017D333 /* Date+Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		6B50FB591FA885DE0017D333 /* UIView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
 		6B50FB5B1FA886170017D333 /* Strings+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Additions.swift"; sourceTree = "<group>"; };
 		6B50FB5D1FA886300017D333 /* CGFloat+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Additions.swift"; sourceTree = "<group>"; };
+		6B50FB5F1FA896AE0017D333 /* Date+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				6B50FB551FA880530017D333 /* UIViewController+Additions.swift */,
 				6B50FB571FA885C60017D333 /* UIColor+Additions.swift */,
 				6B50FB591FA885DE0017D333 /* UIView+Additions.swift */,
+				6B50FB5F1FA896AE0017D333 /* Date+Additions.swift */,
 				6B50FB5B1FA886170017D333 /* Strings+Additions.swift */,
 				6B50FB5D1FA886300017D333 /* CGFloat+Additions.swift */,
 				6B50FB431FA8800E0017D333 /* AppDelegate.swift */,
@@ -159,6 +162,7 @@
 				6B50FB5C1FA886170017D333 /* Strings+Additions.swift in Sources */,
 				6B50FB561FA880530017D333 /* UIViewController+Additions.swift in Sources */,
 				6B50FB5E1FA886300017D333 /* CGFloat+Additions.swift in Sources */,
+				6B50FB601FA896AE0017D333 /* Date+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
